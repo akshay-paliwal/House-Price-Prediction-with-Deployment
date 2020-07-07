@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Page Title</title>
+
+<style>
+body {
+	background-image: url("https://1storlandorealestate.com/wp-content/uploads/2017/11/What-Type-Of-Home-Are-You-Quiz-10-14-HERO1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(8px);
+
+     }
+</style>
+</head>
+<body>
+    <form action="/predict" method="POST"><br>
+        <h1 style="color:black;font-size:250%;text-align:center;font-family:purisa;text-shadow: 4px 4px 3px white, 2px 2px 1px white;">Predict Your House Price</h1>
+           <div style="text-align:center;line-height: 10px;">
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter per capita crime rate..." name="crim"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter proportion of residential land zoned for lots over 25,000 sq.ft. ..." name="zn"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter proportion of non-retail business acres per town..." name="indus"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter 1 if tract bounds river; 0 otherwise..." name="chas"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter nitric oxides concentration..." name="nox"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter average number of rooms per dwelling..." name="rm"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter proportion of owner-occupied units built prior to 1940..." name="age"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter weighted distances to five Boston employment centres..." name="dis"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter index of accessibility to radial highways..." name="rad"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter full-value property-tax rate per $10,000..." name="tax"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter pupil-teacher ratio by town..." name="ptratio"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;" type = "text" placeholder ="Enter 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town..." name="b"><br><br>
+               <input style="height:33px; width:550px; text-align:center; font-size:100%;"  type = "text" placeholder ="Enter  % lower status of the population..." name="lstat"><br><br><br><br>
+               <button style="background-color: grey; height:40px; width:150px;font-size: medium;border-width: 3px; border-color:white; border-radius: 5px; color: black;" type = "submit" value="Submit"><b>Predict</b></button>
+           </div>
+    </form>
+</body>
+</html>
