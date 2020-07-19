@@ -2,7 +2,7 @@
 House Price Prediction with Deployment
 
 ## Introduction
-This is one of my Machine Learning projects from [Machine Learning and Deep Learning with Deployment](https://academy.ineuron.ai/machine-learning-masters.php) course, from [iNeuron.ai](https://academy.ineuron.ai/index.php). In this project, to predict the price of a house based on the parameters given by the user, using a pre-trained Machine Learning(Multiple Linear Regression) model. The code needs to take the parameters from the user through an HTML form, use the obtained data to predict the house price, and display the predicted price to the user using another HTML page.
+This is one of my Machine Learning projects from [Machine Learning and Deep Learning with Deployment](https://academy.ineuron.ai/machine-learning-masters.php) course, from [iNeuron.ai](https://academy.ineuron.ai/index.php). In this project,the code was written to predict the price of a house based on the parameters given by the user, using a pre-trained Machine Learning(Multiple Linear Regression) model. The code needs to take the parameters from the user through an HTML form, use the obtained data to predict the house price, and display the predicted price to the user using another HTML page.
 
 **Multiple Regression -**  It is an extension of simple linear regression. It is used when we want to predict the value of a variable based on the value of two or more other variables.
 
